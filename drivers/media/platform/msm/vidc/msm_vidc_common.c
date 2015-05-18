@@ -712,8 +712,8 @@ static void handle_event_change(enum command_response cmd, void *data)
 			dprintk(VIDC_ERR,
 				"Event release buf ref received in invalid state - discard\n");
 			mutex_unlock(&inst->lock);
-				return;
-			}
+			return;
+		}
 		mutex_unlock(&inst->lock);
 
 			/*
