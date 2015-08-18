@@ -363,7 +363,7 @@ static int _disp_tz_reset_stats(void)
 
 static int _disp_tz_interrupt_stats(void)
 {
-	int i, j, int_info_size;
+	int i, j, int_info_size = 0;
 	int len = 0;
 	int *num_int;
 	unsigned char *ptr;
