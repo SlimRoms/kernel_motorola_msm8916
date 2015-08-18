@@ -2453,7 +2453,7 @@ struct regulator_ops smb135x_chg_otg_reg_ops = {
 static int smb135x_chip_version_and_revision(struct smb135x_chg *chip)
 {
 	int rc;
-	u8 version1, version2, version3;
+	u8 version1 = 0, version2 = 0, version3 = 0;
 
 	/* read the revision */
 	rc = read_revision(chip, &chip->revision);
