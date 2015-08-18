@@ -10,8 +10,8 @@ export SUBARCH=arm
 echo 'exporting SubArch'
 
 # Export toolchain 
-    export CROSS_COMPILE=/home/prbassplayer/lp5.1/prebuilt/linux-x86/toolchain/linaro-4.9-14.06/bin/arm-linux-gnueabihf-
-    echo 'exporting Cross Compile toolchain (Linaro 4.9 (14.06) arm-linux-gnueabihf-)'
+    export CROSS_COMPILE=/home/prbassplayer/lp5.1/prebuilt/linux-x86/toolchain/linaro-4.9-15.05/bin/arm-linux-gnueabihf-
+    echo 'exporting Cross Compile toolchain (Linaro 4.9 (15.05) arm-linux-gnueabihf-)'
 
 # Make sure build is clean!
 echo 'Cleaning build'
