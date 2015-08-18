@@ -1178,7 +1178,7 @@ int synaptics_rmi4_sw_reset(struct synaptics_rmi4_data *rmi4_data,
 	unsigned char page_number;
 	unsigned short pdt_entry_addr;
 	struct synaptics_rmi4_fn_desc rmi_fd;
-	unsigned short cmd_reg_addr;
+	unsigned short cmd_reg_addr = 0;
 	bool cmd_reg_found = false;
 
 	if (!requery) {
