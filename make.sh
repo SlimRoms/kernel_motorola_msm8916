@@ -7,8 +7,8 @@ export ARCH=arm
 echo 'exporting Arch'
 export SUBARCH=arm
 echo 'exporting SubArch'
-export CROSS_COMPILE=/home/prbassplayer/lp5.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-
-echo 'exporting Cross Compile toolchain (Googles 4.8 arm-linux-androideabi-)'
+export CROSS_COMPILE=/home/prbassplayer/lp5.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+echo 'exporting Cross Compile toolchain (Googles 4.9 arm-linux-androideabi-)'
 
 # Make sure build is clean!
 echo 'Cleaning build'
